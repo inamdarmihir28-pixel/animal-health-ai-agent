@@ -1,0 +1,12 @@
+{
+  "python.analysis.extraPaths": [
+    "./animal-health-ai-agent"
+],
+"python-envs.pythonProjects": [
+    {
+        "path": "animal-health-ai-agent",
+        "envManager": "ms-python.python:venv",
+        "packageManager": "ms-python.python:pip"
+    }
+]
+}

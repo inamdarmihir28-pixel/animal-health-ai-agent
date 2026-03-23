@@ -1,0 +1,916 @@
+[
+  {
+    "timestamp": "2026-03-20 11:17:04.175106",
+    "data": {
+      "risk_score": 0.85,
+      "risk_level": "High",
+      "trend": "No historical data",
+      "alert": {
+        "alert": true,
+        "message": "\u26a0\ufe0f High Risk Alert! Score: 0.85"
+      },
+      "drivers": {
+        "disease": "It seems that the text you intended to provide is missing. Please provide the text containing the disease outbreak information so I can assist you in extracting the structured data in JSON format.",
+        "stockout": {
+          "high_risk_products": {
+            "Zoetis | supplement_002": 100,
+            "Merck | antibiotic_002": 150,
+            "Ceva | diagnostic_001": 200,
+            "Boehringer | vaccine_002": 300,
+            "Boehringer | vaccine_001": 900
+          },
+          "high_risk_manufacturers": {
+            "Zoetis": 100,
+            "Merck": 150,
+            "Ceva": 200,
+            "Boehringer": 1200
+          },
+          "lowest_stock_regions": {
+            "Quebec": 1000,
+            "Alberta": 1150,
+            "British Columbia": 1300
+          },
+          "highest_stock_regions": {
+            "Ontario": 1550,
+            "British Columbia": 1300,
+            "Alberta": 1150
+          },
+          "recommendations": [
+            "Transfer stock from Ontario to Quebec",
+            "Transfer stock from British Columbia to Quebec",
+            "Transfer stock from Alberta to Quebec",
+            "Transfer stock from Ontario to Alberta",
+            "Transfer stock from British Columbia to Alberta",
+            "Transfer stock from Alberta to Alberta",
+            "Transfer stock from Ontario to British Columbia",
+            "Transfer stock from British Columbia to British Columbia",
+            "Transfer stock from Alberta to British Columbia"
+          ]
+        },
+        "vet_behavior": {
+          "declining_usage_regions": {
+            "Alberta | antibiotic_002": 1,
+            "British Columbia | supplement_002": 1,
+            "Ontario | antibiotic_001": 1,
+            "Ontario | vaccine_002": 1
+          },
+          "high_switching_regions": {
+            "Ontario": 2,
+            "Alberta": 1,
+            "British Columbia": 1
+          },
+          "recommendations": [
+            "Realign salesforce in declining regions",
+            "Provide continuing education to veterinarians",
+            "Improve technical support",
+            "Enhance product quality"
+          ]
+        }
+      },
+      "recommended_actions": [
+        "Reallocate inventory",
+        "Increase vet engagement",
+        "Monitor disease outbreaks closely"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-20 11:33:50.675953",
+    "data": {
+      "risk_score": 1.0,
+      "risk_level": "High",
+      "trend": "Increasing Risk",
+      "alert": {
+        "alert": true,
+        "message": "\u26a0\ufe0f High Risk Alert! Score: 1.0"
+      },
+      "drivers": {
+        "disease": "It seems that the text you intended to provide is missing. Please provide the text containing the disease outbreak information so that I can extract the structured data and return it in JSON format.",
+        "stockout": {
+          "high_risk_products": {
+            "Zoetis | supplement_002": 100,
+            "Merck | antibiotic_002": 150,
+            "Ceva | diagnostic_001": 200,
+            "Boehringer | vaccine_002": 300,
+            "Boehringer | vaccine_001": 900
+          },
+          "high_risk_manufacturers": {
+            "Zoetis": 100,
+            "Merck": 150,
+            "Ceva": 200,
+            "Boehringer": 1200
+          },
+          "lowest_stock_regions": {
+            "Quebec": 1000,
+            "Alberta": 1150,
+            "British Columbia": 1300
+          },
+          "highest_stock_regions": {
+            "Ontario": 1550,
+            "British Columbia": 1300,
+            "Alberta": 1150
+          },
+          "recommendations": [
+            "Transfer stock from Ontario to Quebec",
+            "Transfer stock from British Columbia to Quebec",
+            "Transfer stock from Alberta to Quebec",
+            "Transfer stock from Ontario to Alberta",
+            "Transfer stock from British Columbia to Alberta",
+            "Transfer stock from Alberta to Alberta",
+            "Transfer stock from Ontario to British Columbia",
+            "Transfer stock from British Columbia to British Columbia",
+            "Transfer stock from Alberta to British Columbia"
+          ]
+        },
+        "vet_behavior": {
+          "declining_usage_regions": {
+            "Alberta | antibiotic_002": 1,
+            "British Columbia | supplement_002": 1,
+            "Ontario | antibiotic_001": 1,
+            "Ontario | vaccine_002": 1
+          },
+          "high_switching_regions": {
+            "Ontario": 2,
+            "Alberta": 1,
+            "British Columbia": 1
+          },
+          "recommendations": [
+            "Realign salesforce in declining regions",
+            "Provide continuing education to veterinarians",
+            "Improve technical support",
+            "Enhance product quality"
+          ]
+        }
+      },
+      "recommended_actions": [
+        "Reallocate inventory",
+        "Increase vet engagement",
+        "Monitor disease outbreaks closely"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-20 11:33:55.737427",
+    "data": {
+      "risk_score": 1.0,
+      "risk_level": "High",
+      "trend": "Stable",
+      "alert": {
+        "alert": true,
+        "message": "\u26a0\ufe0f High Risk Alert! Score: 1.0"
+      },
+      "drivers": {
+        "disease": "It seems that the text you intended to provide is missing. Please provide the text containing the disease outbreak information, and I will help you extract the structured data in JSON format.",
+        "stockout": {
+          "high_risk_products": {
+            "Zoetis | supplement_002": 100,
+            "Merck | antibiotic_002": 150,
+            "Ceva | diagnostic_001": 200,
+            "Boehringer | vaccine_002": 300,
+            "Boehringer | vaccine_001": 900
+          },
+          "high_risk_manufacturers": {
+            "Zoetis": 100,
+            "Merck": 150,
+            "Ceva": 200,
+            "Boehringer": 1200
+          },
+          "lowest_stock_regions": {
+            "Quebec": 1000,
+            "Alberta": 1150,
+            "British Columbia": 1300
+          },
+          "highest_stock_regions": {
+            "Ontario": 1550,
+            "British Columbia": 1300,
+            "Alberta": 1150
+          },
+          "recommendations": [
+            "Transfer stock from Ontario to Quebec",
+            "Transfer stock from British Columbia to Quebec",
+            "Transfer stock from Alberta to Quebec",
+            "Transfer stock from Ontario to Alberta",
+            "Transfer stock from British Columbia to Alberta",
+            "Transfer stock from Alberta to Alberta",
+            "Transfer stock from Ontario to British Columbia",
+            "Transfer stock from British Columbia to British Columbia",
+            "Transfer stock from Alberta to British Columbia"
+          ]
+        },
+        "vet_behavior": {
+          "declining_usage_regions": {
+            "Alberta | antibiotic_002": 1,
+            "British Columbia | supplement_002": 1,
+            "Ontario | antibiotic_001": 1,
+            "Ontario | vaccine_002": 1
+          },
+          "high_switching_regions": {
+            "Ontario": 2,
+            "Alberta": 1,
+            "British Columbia": 1
+          },
+          "recommendations": [
+            "Realign salesforce in declining regions",
+            "Provide continuing education to veterinarians",
+            "Improve technical support",
+            "Enhance product quality"
+          ]
+        }
+      },
+      "recommended_actions": [
+        "Reallocate inventory",
+        "Increase vet engagement",
+        "Monitor disease outbreaks closely"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-20 11:35:15.252587",
+    "data": {
+      "risk_score": 0.2,
+      "risk_level": "Low",
+      "trend": "Decreasing Risk",
+      "alert": {
+        "alert": false
+      },
+      "drivers": {
+        "disease": "It seems that the text you intended to provide is missing. Please provide the text containing the disease outbreak information, and I will help you extract the structured information in JSON format.",
+        "stockout": {
+          "high_risk_products": {
+            "Zoetis | supplement_002": 100,
+            "Merck | antibiotic_002": 150,
+            "Ceva | diagnostic_001": 200,
+            "Boehringer | vaccine_002": 300,
+            "Boehringer | vaccine_001": 900
+          },
+          "high_risk_manufacturers": {
+            "Zoetis": 100,
+            "Merck": 150,
+            "Ceva": 200,
+            "Boehringer": 1200
+          },
+          "lowest_stock_regions": {
+            "Quebec": 1000,
+            "Alberta": 1150,
+            "British Columbia": 1300
+          },
+          "highest_stock_regions": {
+            "Ontario": 1550,
+            "British Columbia": 1300,
+            "Alberta": 1150
+          },
+          "recommendations": [
+            "Transfer stock from Ontario to Quebec",
+            "Transfer stock from British Columbia to Quebec",
+            "Transfer stock from Alberta to Quebec",
+            "Transfer stock from Ontario to Alberta",
+            "Transfer stock from British Columbia to Alberta",
+            "Transfer stock from Alberta to Alberta",
+            "Transfer stock from Ontario to British Columbia",
+            "Transfer stock from British Columbia to British Columbia",
+            "Transfer stock from Alberta to British Columbia"
+          ]
+        },
+        "vet_behavior": {
+          "declining_usage_regions": {
+            "Alberta | antibiotic_002": 1,
+            "British Columbia | supplement_002": 1,
+            "Ontario | antibiotic_001": 1,
+            "Ontario | vaccine_002": 1
+          },
+          "high_switching_regions": {
+            "Ontario": 2,
+            "Alberta": 1,
+            "British Columbia": 1
+          },
+          "recommendations": [
+            "Realign salesforce in declining regions",
+            "Provide continuing education to veterinarians",
+            "Improve technical support",
+            "Enhance product quality"
+          ]
+        }
+      },
+      "recommended_actions": [
+        "Reallocate inventory",
+        "Increase vet engagement",
+        "Monitor disease outbreaks closely"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-20 11:45:00.489247",
+    "data": {
+      "risk_score": 1.0,
+      "risk_level": "High",
+      "trend": "Increasing Risk",
+      "alert": {
+        "alert": true,
+        "message": "\u26a0\ufe0f High Risk Alert! Score: 1.0"
+      },
+      "drivers": {
+        "disease": "It seems that the text you intended to provide is missing. Please provide the text containing the disease outbreak information, and I will help you extract the structured information in JSON format.",
+        "stockout": {
+          "high_risk_products": {
+            "Zoetis | supplement_002": 100,
+            "Merck | antibiotic_002": 150,
+            "Ceva | diagnostic_001": 200,
+            "Boehringer | vaccine_002": 300,
+            "Boehringer | vaccine_001": 900
+          },
+          "high_risk_manufacturers": {
+            "Zoetis": 100,
+            "Merck": 150,
+            "Ceva": 200,
+            "Boehringer": 1200
+          },
+          "lowest_stock_regions": {
+            "Quebec": 1000,
+            "Alberta": 1150,
+            "British Columbia": 1300
+          },
+          "highest_stock_regions": {
+            "Ontario": 1550,
+            "British Columbia": 1300,
+            "Alberta": 1150
+          },
+          "recommendations": [
+            "Transfer stock from Ontario to Quebec",
+            "Transfer stock from British Columbia to Quebec",
+            "Transfer stock from Alberta to Quebec",
+            "Transfer stock from Ontario to Alberta",
+            "Transfer stock from British Columbia to Alberta",
+            "Transfer stock from Alberta to Alberta",
+            "Transfer stock from Ontario to British Columbia",
+            "Transfer stock from British Columbia to British Columbia",
+            "Transfer stock from Alberta to British Columbia"
+          ]
+        },
+        "vet_behavior": {
+          "declining_usage_regions": {
+            "Alberta | antibiotic_002": 1,
+            "British Columbia | supplement_002": 1,
+            "Ontario | antibiotic_001": 1,
+            "Ontario | vaccine_002": 1
+          },
+          "high_switching_regions": {
+            "Ontario": 2,
+            "Alberta": 1,
+            "British Columbia": 1
+          },
+          "recommendations": [
+            "Realign salesforce in declining regions",
+            "Provide continuing education to veterinarians",
+            "Improve technical support",
+            "Enhance product quality"
+          ]
+        }
+      },
+      "recommended_actions": [
+        "Reallocate inventory",
+        "Increase vet engagement",
+        "Monitor disease outbreaks closely"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-20 17:00:44.620113",
+    "data": {
+      "risk_score": 0.45,
+      "risk_level": "Medium",
+      "trend": "Decreasing Risk",
+      "alert": {
+        "alert": false
+      },
+      "drivers": {
+        "disease": "```json\n{\n    \"disease_name\": \"Avian Influenza\",\n    \"date\": null,\n    \"species_affected\": \"poultry\",\n    \"regions_affected\": \"Ontario\",\n    \"severity\": null,\n    \"government_advisory\": null,\n    \"business_actions\": null\n}\n```",
+        "stockout": {
+          "high_risk_products": {
+            "Zoetis | supplement_002": 100,
+            "Merck | antibiotic_002": 150,
+            "Ceva | diagnostic_001": 200,
+            "Boehringer | vaccine_002": 300,
+            "Boehringer | vaccine_001": 900
+          },
+          "high_risk_manufacturers": {
+            "Zoetis": 100,
+            "Merck": 150,
+            "Ceva": 200,
+            "Boehringer": 1200
+          },
+          "lowest_stock_regions": {
+            "Quebec": 1000,
+            "Alberta": 1150,
+            "British Columbia": 1300
+          },
+          "highest_stock_regions": {
+            "Ontario": 1550,
+            "British Columbia": 1300,
+            "Alberta": 1150
+          },
+          "recommendations": [
+            "Transfer stock from Ontario to Quebec",
+            "Transfer stock from British Columbia to Quebec",
+            "Transfer stock from Alberta to Quebec",
+            "Transfer stock from Ontario to Alberta",
+            "Transfer stock from British Columbia to Alberta",
+            "Transfer stock from Alberta to Alberta",
+            "Transfer stock from Ontario to British Columbia",
+            "Transfer stock from British Columbia to British Columbia",
+            "Transfer stock from Alberta to British Columbia"
+          ]
+        },
+        "vet_behavior": {
+          "clinic_insights": [
+            {
+              "clinic_id": "CL001",
+              "region": "Ontario",
+              "product": "vaccine_001",
+              "trend": "declining",
+              "opportunity": "high"
+            }
+          ],
+          "high_switching_regions": {
+            "Ontario": 2,
+            "Alberta": 1,
+            "British Columbia": 1
+          },
+          "recommendations": [
+            "Realign salesforce in declining regions",
+            "Provide continuing education to veterinarians",
+            "Improve technical support",
+            "Enhance product quality"
+          ]
+        }
+      },
+      "recommended_actions": [
+        "Reallocate inventory",
+        "Increase vet engagement",
+        "Monitor disease outbreaks closely"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-20 17:17:58.634452",
+    "data": {
+      "risk_score": 0.45,
+      "risk_level": "Medium",
+      "trend": "Stable",
+      "alert": {
+        "alert": false
+      },
+      "drivers": {
+        "disease": "```json\n{\n    \"disease_name\": \"Flooding\",\n    \"date\": null,\n    \"species_affected\": \"Veterinary species\",\n    \"regions_affected\": \"Midwest USA\",\n    \"severity\": null,\n    \"government_advisory\": null,\n    \"business_actions\": \"Affecting veterinary access and drug distribution\"\n}\n```",
+        "stockout": {
+          "high_risk_products": {
+            "Zoetis | supplement_002": 100,
+            "Merck | antibiotic_002": 150,
+            "Ceva | diagnostic_001": 200,
+            "Boehringer | vaccine_002": 300,
+            "Boehringer | vaccine_001": 900
+          },
+          "high_risk_manufacturers": {
+            "Zoetis": 100,
+            "Merck": 150,
+            "Ceva": 200,
+            "Boehringer": 1200
+          },
+          "lowest_stock_regions": {
+            "Quebec": 1000,
+            "Alberta": 1150,
+            "British Columbia": 1300
+          },
+          "highest_stock_regions": {
+            "Ontario": 1550,
+            "British Columbia": 1300,
+            "Alberta": 1150
+          },
+          "recommendations": [
+            "Transfer stock from Ontario to Quebec",
+            "Transfer stock from British Columbia to Quebec",
+            "Transfer stock from Alberta to Quebec",
+            "Transfer stock from Ontario to Alberta",
+            "Transfer stock from British Columbia to Alberta",
+            "Transfer stock from Alberta to Alberta",
+            "Transfer stock from Ontario to British Columbia",
+            "Transfer stock from British Columbia to British Columbia",
+            "Transfer stock from Alberta to British Columbia"
+          ]
+        },
+        "vet_behavior": {
+          "clinic_insights": [
+            {
+              "clinic_id": "CL001",
+              "region": "Ontario",
+              "product": "vaccine_001",
+              "trend": "declining",
+              "opportunity": "high"
+            }
+          ],
+          "high_switching_regions": {
+            "Ontario": 2,
+            "Alberta": 1,
+            "British Columbia": 1
+          },
+          "recommendations": [
+            "Realign salesforce in declining regions",
+            "Provide continuing education to veterinarians",
+            "Improve technical support",
+            "Enhance product quality"
+          ]
+        }
+      },
+      "recommended_actions": [
+        "Reallocate inventory",
+        "Increase vet engagement",
+        "Monitor disease outbreaks closely"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-20 17:18:33.919483",
+    "data": {
+      "risk_score": 0.45,
+      "risk_level": "Medium",
+      "trend": "Stable",
+      "alert": {
+        "alert": false
+      },
+      "drivers": {
+        "disease": "```json\n{\n    \"disease_name\": \"Severe drought\",\n    \"date\": null,\n    \"species_affected\": \"livestock\",\n    \"regions_affected\": \"Texas\",\n    \"severity\": null,\n    \"government_advisory\": null,\n    \"business_actions\": null\n}\n```",
+        "stockout": {
+          "high_risk_products": {
+            "Zoetis | supplement_002": 100,
+            "Merck | antibiotic_002": 150,
+            "Ceva | diagnostic_001": 200,
+            "Boehringer | vaccine_002": 300,
+            "Boehringer | vaccine_001": 900
+          },
+          "high_risk_manufacturers": {
+            "Zoetis": 100,
+            "Merck": 150,
+            "Ceva": 200,
+            "Boehringer": 1200
+          },
+          "lowest_stock_regions": {
+            "Quebec": 1000,
+            "Alberta": 1150,
+            "British Columbia": 1300
+          },
+          "highest_stock_regions": {
+            "Ontario": 1550,
+            "British Columbia": 1300,
+            "Alberta": 1150
+          },
+          "recommendations": [
+            "Transfer stock from Ontario to Quebec",
+            "Transfer stock from British Columbia to Quebec",
+            "Transfer stock from Alberta to Quebec",
+            "Transfer stock from Ontario to Alberta",
+            "Transfer stock from British Columbia to Alberta",
+            "Transfer stock from Alberta to Alberta",
+            "Transfer stock from Ontario to British Columbia",
+            "Transfer stock from British Columbia to British Columbia",
+            "Transfer stock from Alberta to British Columbia"
+          ]
+        },
+        "vet_behavior": {
+          "clinic_insights": [
+            {
+              "clinic_id": "CL001",
+              "region": "Ontario",
+              "product": "vaccine_001",
+              "trend": "declining",
+              "opportunity": "high"
+            }
+          ],
+          "high_switching_regions": {
+            "Ontario": 2,
+            "Alberta": 1,
+            "British Columbia": 1
+          },
+          "recommendations": [
+            "Realign salesforce in declining regions",
+            "Provide continuing education to veterinarians",
+            "Improve technical support",
+            "Enhance product quality"
+          ]
+        }
+      },
+      "recommended_actions": [
+        "Reallocate inventory",
+        "Increase vet engagement",
+        "Monitor disease outbreaks closely"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-20 18:52:30.342941",
+    "data": {
+      "risk_score": 0.85,
+      "risk_level": "High",
+      "trend": "Increasing Risk",
+      "alert": {
+        "alert": true,
+        "message": "\u26a0\ufe0f High Risk Alert! Score: 0.85"
+      },
+      "drivers": {
+        "disease": "```json\n{\n    \"disease_name\": \"Avian Influenza\",\n    \"date\": null,\n    \"species_affected\": \"poultry\",\n    \"regions_affected\": \"Ontario\",\n    \"severity\": null,\n    \"government_advisory\": null,\n    \"business_actions\": null\n}\n```",
+        "stockout": {
+          "high_risk_products": {
+            "Zoetis | supplement_002": 100,
+            "Merck | antibiotic_002": 150,
+            "Ceva | diagnostic_001": 200,
+            "Boehringer | vaccine_002": 300,
+            "Boehringer | vaccine_001": 900
+          },
+          "high_risk_manufacturers": {
+            "Zoetis": 100,
+            "Merck": 150,
+            "Ceva": 200,
+            "Boehringer": 1200
+          },
+          "lowest_stock_regions": {
+            "Quebec": 1000,
+            "Alberta": 1150,
+            "British Columbia": 1300
+          },
+          "highest_stock_regions": {
+            "Ontario": 1550,
+            "British Columbia": 1300,
+            "Alberta": 1150
+          },
+          "recommendations": [
+            "Transfer stock from Ontario to Quebec",
+            "Transfer stock from British Columbia to Quebec",
+            "Transfer stock from Alberta to Quebec",
+            "Transfer stock from Ontario to Alberta",
+            "Transfer stock from British Columbia to Alberta",
+            "Transfer stock from Alberta to Alberta",
+            "Transfer stock from Ontario to British Columbia",
+            "Transfer stock from British Columbia to British Columbia",
+            "Transfer stock from Alberta to British Columbia"
+          ]
+        },
+        "vet": {
+          "clinic_insights": [
+            {
+              "clinic_id": "CL001",
+              "region": "Ontario",
+              "product": "vaccine_001",
+              "trend": "declining",
+              "opportunity": "high"
+            }
+          ],
+          "high_switching_regions": {
+            "Ontario": 2,
+            "Alberta": 1,
+            "British Columbia": 1
+          },
+          "recommendations": [
+            "Realign salesforce in declining regions",
+            "Provide continuing education to veterinarians",
+            "Improve technical support",
+            "Enhance product quality"
+          ]
+        }
+      },
+      "recommended_actions": [
+        "Reallocate inventory",
+        "Increase vet engagement",
+        "Monitor disease outbreaks closely"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-20 19:02:18.854248",
+    "data": {
+      "risk_score": 0.45,
+      "risk_level": "Medium",
+      "trend": "No historical data",
+      "alert": {
+        "alert": false
+      },
+      "drivers": {
+        "disease": "```json\n{\n    \"disease_name\": \"Avian Influenza\",\n    \"date\": null,\n    \"species_affected\": \"poultry\",\n    \"regions_affected\": \"Ontario\",\n    \"severity\": null,\n    \"government_advisory\": null,\n    \"business_actions\": null\n}\n```",
+        "stockout": {
+          "high_risk_products": {
+            "Zoetis | supplement_002": 100,
+            "Merck | antibiotic_002": 150,
+            "Ceva | diagnostic_001": 200,
+            "Boehringer | vaccine_002": 300,
+            "Boehringer | vaccine_001": 900
+          },
+          "high_risk_manufacturers": {
+            "Zoetis": 100,
+            "Merck": 150,
+            "Ceva": 200,
+            "Boehringer": 1200
+          },
+          "lowest_stock_regions": {
+            "Quebec": 1000,
+            "Alberta": 1150,
+            "British Columbia": 1300
+          },
+          "highest_stock_regions": {
+            "Ontario": 1550,
+            "British Columbia": 1300,
+            "Alberta": 1150
+          },
+          "recommendations": [
+            "Transfer stock from Ontario to Quebec",
+            "Transfer stock from British Columbia to Quebec",
+            "Transfer stock from Alberta to Quebec",
+            "Transfer stock from Ontario to Alberta",
+            "Transfer stock from British Columbia to Alberta",
+            "Transfer stock from Alberta to Alberta",
+            "Transfer stock from Ontario to British Columbia",
+            "Transfer stock from British Columbia to British Columbia",
+            "Transfer stock from Alberta to British Columbia"
+          ]
+        },
+        "vet_behavior": {
+          "clinic_insights": [
+            {
+              "clinic_id": "CL001",
+              "region": "Ontario",
+              "product": "vaccine_001",
+              "trend": "declining",
+              "opportunity": "high"
+            }
+          ],
+          "high_switching_regions": {
+            "Ontario": 2,
+            "Alberta": 1,
+            "British Columbia": 1
+          },
+          "recommendations": [
+            "Realign salesforce in declining regions",
+            "Provide continuing education to veterinarians",
+            "Improve technical support",
+            "Enhance product quality"
+          ]
+        }
+      },
+      "recommended_actions": [
+        "Reallocate inventory",
+        "Increase vet engagement",
+        "Monitor disease outbreaks closely"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-20 22:27:39.036956",
+    "data": {
+      "risk_score": 0.45,
+      "risk_level": "Medium",
+      "trend": "No historical data",
+      "alert": {
+        "alert": false
+      },
+      "drivers": {
+        "disease": "```json\n{\n    \"disease_name\": null,\n    \"date\": null,\n    \"species_affected\": null,\n    \"regions_affected\": \"Midwest USA\",\n    \"severity\": null,\n    \"government_advisory\": null,\n    \"business_actions\": \"affecting veterinary access and drug distribution\"\n}\n```",
+        "stockout": {
+          "high_risk_products": {
+            "Zoetis | supplement_002": 100,
+            "Merck | antibiotic_002": 150,
+            "Ceva | diagnostic_001": 200,
+            "Boehringer | vaccine_002": 300,
+            "Boehringer | vaccine_001": 900
+          },
+          "high_risk_manufacturers": {
+            "Zoetis": 100,
+            "Merck": 150,
+            "Ceva": 200,
+            "Boehringer": 1200
+          },
+          "lowest_stock_regions": {
+            "Quebec": 1000,
+            "Alberta": 1150,
+            "British Columbia": 1300
+          },
+          "highest_stock_regions": {
+            "Ontario": 1550,
+            "British Columbia": 1300,
+            "Alberta": 1150
+          },
+          "recommendations": [
+            "Transfer stock from Ontario to Quebec",
+            "Transfer stock from British Columbia to Quebec",
+            "Transfer stock from Alberta to Quebec",
+            "Transfer stock from Ontario to Alberta",
+            "Transfer stock from British Columbia to Alberta",
+            "Transfer stock from Alberta to Alberta",
+            "Transfer stock from Ontario to British Columbia",
+            "Transfer stock from British Columbia to British Columbia",
+            "Transfer stock from Alberta to British Columbia"
+          ]
+        },
+        "vet_behavior": {
+          "clinic_insights": [
+            {
+              "clinic_id": "CL001",
+              "region": "Ontario",
+              "product": "vaccine_001",
+              "trend": "declining",
+              "opportunity": "high"
+            }
+          ],
+          "high_switching_regions": {
+            "Ontario": 2,
+            "Alberta": 1,
+            "British Columbia": 1
+          },
+          "recommendations": [
+            "Realign salesforce in declining regions",
+            "Provide continuing education to veterinarians",
+            "Improve technical support",
+            "Enhance product quality"
+          ]
+        }
+      },
+      "recommended_actions": [
+        "Reallocate inventory",
+        "Increase vet engagement",
+        "Monitor disease outbreaks closely"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-23 12:24:41.868170",
+    "data": {
+      "risk_score": 0.45,
+      "risk_level": "Medium",
+      "trend": "No historical data",
+      "alert": {
+        "alert": false
+      },
+      "drivers": {
+        "disease": "```json\n{\n    \"disease_name\": \"Avian Influenza\",\n    \"date\": null,\n    \"species_affected\": \"poultry\",\n    \"regions_affected\": \"Ontario\",\n    \"severity\": null,\n    \"government_advisory\": null,\n    \"business_actions\": null\n}\n```",
+        "stockout": {
+          "high_risk_products": {
+            "Zoetis | supplement_002": 100,
+            "Merck | antibiotic_002": 150,
+            "Ceva | diagnostic_001": 200,
+            "Boehringer | vaccine_002": 300,
+            "Boehringer | vaccine_001": 900
+          },
+          "high_risk_manufacturers": {
+            "Zoetis": 100,
+            "Merck": 150,
+            "Ceva": 200,
+            "Boehringer": 1200
+          },
+          "lowest_stock_regions": {
+            "Quebec": 1000,
+            "Alberta": 1150,
+            "British Columbia": 1300
+          },
+          "highest_stock_regions": {
+            "Ontario": 1550,
+            "British Columbia": 1300,
+            "Alberta": 1150
+          },
+          "recommendations": [
+            "Transfer stock from Ontario to Quebec",
+            "Transfer stock from British Columbia to Quebec",
+            "Transfer stock from Alberta to Quebec",
+            "Transfer stock from Ontario to Alberta",
+            "Transfer stock from British Columbia to Alberta",
+            "Transfer stock from Alberta to Alberta",
+            "Transfer stock from Ontario to British Columbia",
+            "Transfer stock from British Columbia to British Columbia",
+            "Transfer stock from Alberta to British Columbia"
+          ]
+        },
+        "vet_behavior": {
+          "clinic_insights": [
+            {
+              "clinic_id": "CL001",
+              "region": "Ontario",
+              "product": "vaccine_001",
+              "trend": "declining",
+              "opportunity": "high"
+            }
+          ],
+          "high_switching_regions": {
+            "Ontario": 2,
+            "Alberta": 1,
+            "British Columbia": 1
+          },
+          "recommendations": [
+            "Realign salesforce in declining regions",
+            "Provide continuing education to veterinarians",
+            "Improve technical support",
+            "Enhance product quality"
+          ]
+        }
+      },
+      "recommended_actions": [
+        "Reallocate inventory",
+        "Increase vet engagement",
+        "Monitor disease outbreaks closely"
+      ]
+    }
+  }
+]

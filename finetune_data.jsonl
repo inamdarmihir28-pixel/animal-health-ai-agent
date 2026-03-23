@@ -1,0 +1,3 @@
+{"prompt": "Q: What are the key components of Agentic AI?\nA:", "completion": " Agentic AI agents use memory, tools, and goals to act.\n"}
+{"prompt": "Q: Name one framework for AI agents.\nA:", "completion": " LangChain is a framework for building AI agents.\n"}
+{"prompt": "Q: How does RAG improve answers?\nA:", "completion": " RAG improves accuracy by fetching external knowledge before answering.\n"}
