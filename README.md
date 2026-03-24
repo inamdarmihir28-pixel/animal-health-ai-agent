@@ -131,10 +131,33 @@ The system provides:
 
 ### 🧠 For Leadership
 
-- Single view of enterprise risk  
+- Single view of enterprise risk
+
+
 - Data-backed decision making  
 - Faster response to market changes  
 
----
-# animal-health-ai-agent
-AI-powered multi-agent risk intelligence system for animal health
+
+
+## 🧪 How to Test This Project (Step-by-Step)
+
+1. Clone the repo:
+```bash
+git clone https://github.com/your-username/animal-health-ai-agent.git
+cd animal-health-ai-agent
+
+Create virtual environment:
+python -m venv agentic_env
+
+Activate:
+agentic_env\Scripts\activate   # Windows
+source agentic_env/bin/activate  # Mac/Linux
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run the app:
+streamlit run app.py
+
+Open browser:
+http://localhost:8501
