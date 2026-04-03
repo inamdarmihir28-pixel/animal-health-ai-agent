@@ -12,11 +12,14 @@ def call_openai(prompt, model=None):
         raise ValueError("Prompt must be a non-empty string.")
 
     selected_model = model or os.getenv("OPENAI_MODEL", "gpt-4o-mini")
-    response = client.responses.create(
+    response = client.chat.completions.create(
         model=selected_model,
-        input=str(prompt).strip(),
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": str(prompt).strip()}
+        ]
     )
-    return response.output_text
+    return response.choices[0].message.content
 
 
 def extract_disease_info(text):
