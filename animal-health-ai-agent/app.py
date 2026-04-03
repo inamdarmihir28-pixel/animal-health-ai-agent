@@ -11,6 +11,8 @@ from agents.stockout_agent import StockoutAgent
 from agents.vet_agent import VetBehaviorAgent
 from agents.orchestrator import OrchestratorAgent
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 # -------------------------------
 # Scenario Generator
 # -------------------------------
@@ -74,8 +76,10 @@ if st.button("🚀 Run Analysis"):
     try:
         # Initialize agents
         disease_agent = DiseaseIntelligenceAgent([])
-        stockout_agent = StockoutAgent("data/inventory_stock_data.csv")
-        vet_agent = VetBehaviorAgent("data/veterinary_behavior_data.csv")
+        stockout_path = os.path.join(BASE_DIR, "data", "inventory_stock_data.csv")
+        vet_path = os.path.join(BASE_DIR, "data", "veterinary_behavior_data.csv")
+        stockout_agent = StockoutAgent(stockout_path)
+        vet_agent = VetBehaviorAgent(vet_path)
 
         orchestrator = OrchestratorAgent(
             disease_agent,
