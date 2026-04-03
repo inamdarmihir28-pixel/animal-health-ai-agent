@@ -8,6 +8,8 @@ venv/
 
 # Data (optional - if large)
 *.csv
+!data/inventory_stock_data.csv
+!data/veterinary_behavior_data.csv
 
 # OS files
 .DS_Store

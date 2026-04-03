@@ -1,0 +1,11 @@
+manufacturer,product,inventory_level,sales_orders,region
+Boehringer,vaccine_001,500,1200,Ontario
+Boehringer,vaccine_002,300,800,Ontario
+Merck,antibiotic_001,600,900,Alberta
+Merck,antibiotic_002,150,1100,Alberta
+Ceva,diagnostic_001,200,400,Quebec
+Ceva,diagnostic_002,800,600,Quebec
+Zoetis,supplement_001,1200,500,British Columbia
+Zoetis,supplement_002,100,600,British Columbia
+Boehringer,vaccine_001,400,1000,Alberta
+Merck,antibiotic_001,750,700,Ontario

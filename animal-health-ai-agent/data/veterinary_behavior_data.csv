@@ -1,0 +1,11 @@
+region,product,weekly_usage,previous_week_usage
+Ontario,vaccine_001,150,180
+Ontario,vaccine_002,80,120
+Alberta,antibiotic_001,200,200
+Alberta,antibiotic_002,50,180
+Quebec,diagnostic_001,120,100
+Quebec,diagnostic_002,200,200
+British Columbia,supplement_001,300,280
+British Columbia,supplement_002,50,130
+Ontario,antibiotic_001,100,200
+Alberta,vaccine_001,140,100
